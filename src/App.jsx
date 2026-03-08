@@ -22,6 +22,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <br />
         <button onClick={() => setShowMessage(!showMessage)}>
           Click Me To Show Message
         </button>
