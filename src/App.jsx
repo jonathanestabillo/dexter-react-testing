@@ -21,7 +21,7 @@ function App() {
         <button onClick={() => setShowMessage(!showMessage)}>
           Click Me To Show Message
         </button>
-        {showMessage && <p>Hello Mr. Jonathan!</p>}
+        {showMessage && <p>WELCOME YOU CLICKED ME!</p>}
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
